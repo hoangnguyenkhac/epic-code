@@ -1,6 +1,7 @@
 {
     "port": "COM3",
-    "board": "arduino:avr:uno",
+    "board": "sandeepmistry:nRF5:Waveshare_BLE400",
     "programmer": "arduino:arduinoisp",
-    "sketch": "Example.ino"
+    "sketch": "Example.ino",
+    "configuration": "chip=xxac,softdevice=s130"
 }
